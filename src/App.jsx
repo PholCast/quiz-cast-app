@@ -70,7 +70,7 @@ const App = () => {
     <div className="flex flex-col h-dvh">
       <Header />
       <main className="flex-1 bg-primary flex justify-center items-center">
-        <section className="w-2/3 h-3/4 border rounded-2xl bg-amber-50 p-4 flex flex-col justify-center items-center">
+        <section className="w-2/3 h-3/4 border rounded-2xl bg-amber-50 p-4 flex flex-col justify-center items-center max-sm:h-3/4">
           {isLoading ? (
             <FourSquare color={["#32cd32", "#327fcd", "#cd32cd", "#cd8032"]} />
 

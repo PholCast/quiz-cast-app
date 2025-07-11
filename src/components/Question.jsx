@@ -26,8 +26,8 @@ const Question = ({ questions, correctAnswers, setCorrectAnswers, setQuestionNum
   return (
     <>
       <div className='flex justify-between items-center w-full mb-7  '>
-        <div className='text-2xl  max-sm:text-xl'>{questionNum}. {questions.question}</div>
-        <p className='max-sm:text-xs'>Pregunta {questionNum}/{numberOfQuestions}</p>
+        <div className='text-2xl  max-sm:text-xl max-sm:w-3/4'>{questionNum}. {questions.question}</div>
+        <p className=' text-center max-sm:text-xs'><span className='ml-1 max-sm:hidden'>Pregunta</span> {questionNum}/{numberOfQuestions}</p>
       </div>
       <div className='w-full h-3/4 grid grid-cols-2 mb-4 gap-2 max-sm:grid-cols-1'>
         {questions.options.map((answer, i) => {
