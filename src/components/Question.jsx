@@ -20,7 +20,7 @@ const Question = ({ questions, correctAnswers, setCorrectAnswers, setQuestionNum
       setSelectedIndex(null);
       setIsDisabled(false);
       setQuestionNum(prev => prev + 1);
-    }, 500);
+    }, 800);
   };
 
   return (
